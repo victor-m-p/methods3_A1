@@ -62,10 +62,10 @@ If you created an RStudio project, then your working directory (the directory wi
 pacman::p_load(tidyverse,janitor)
 ```
 
-Load the three data sets, after downloading them from dropbox and saving them in your working directory:
-* Demographic data for the participants: https://www.dropbox.com/s/lol8f5m4pgrpmto/demo_train.csv?dl=0
-* Length of utterance data: https://www.dropbox.com/s/usyauqm37a76of6/LU_train.csv?dl=0
-* Word data: https://www.dropbox.com/s/8ng1civpl2aux58/token_train.csv?dl=0
+Load the three data sets, after downloading them from Github and saving them in your working directory:
+* Demographic data for the participants: demo_train.csv
+* Length of utterance data: LU_train.csv
+* Word data: token_train.csv
 
 ```{r}
 
